@@ -2,12 +2,12 @@
 
 ## Description
 
-*The purpose of this project was to add the necessary code to create a functioning password generator.
-*added variables to house all character values for the generator to pull from.
-*added a function to generate passwords.
-*added prompts for the user to work within numeric parameters, and provide options for different types of characters to generate. 
-*added a for loop to randomly pull characters and then concatenate them within chosen parameters. 
-*In the process I familiarized myself with the basic ideas behind functions, arrays, for loops, as well as if/else statements.
+- The purpose of this project was to add the necessary code to create a functioning password generator.
+- added variables to house all character values for the generator to pull from.
+- added a function to generate passwords.
+- added prompts for the user to work within numeric parameters, and provide options for different types of characters to generate. 
+- added a for loop to randomly pull characters and then concatenate them within chosen parameters. 
+- In the process I familiarized myself with the basic ideas behind functions, arrays, for loops, as well as if/else statements.
 
 
 ## Link
