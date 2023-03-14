@@ -1,4 +1,4 @@
-// Added variables to house varied characters
+// Added variables to house varied characters1````````````ll
 var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var lowerCasedCharacters = [
   'a',
@@ -100,22 +100,22 @@ function generatePassword() {
 
   var passwordLength = prompt('Choose a password length between 8 and 128');
   
-  if(!passwordLength) return 'No Password';
+    if(!passwordLength) return 'No Password';
 
-  passwordLength = parseInt(passwordLength);
+    passwordLength = parseInt(passwordLength);
+    
+    console.log(typeof passwordLength, passwordLength); 
   
-  console.log(typeof passwordLength, passwordLength); 
- 
- if(!passwordLength) {
-  console.log('stop')
-  alert('Please enter a valid Number.');
-  return generatePassword();
- }
+  if(!passwordLength) {
+    console.log('stop')
+    alert('Please enter a valid Number.');
+    return generatePassword();
+  }
 
- if(passwordLength < 8 || passwordLength > 128){
-  alert('Please enter a number between 8 and 128.');
-  return generatePassword();
- }
+  if(passwordLength < 8 || passwordLength > 128){
+    alert('Please enter a number between 8 and 128.');
+    return generatePassword();
+  }
 
 // Added an array to house prompts for including other characters
 
